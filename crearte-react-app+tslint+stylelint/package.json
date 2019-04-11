@@ -1,0 +1,45 @@
+{
+  "name": "cell-simulator",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/jest": "24.0.11",
+    "@types/node": "11.13.4",
+    "@types/react": "16.8.13",
+    "@types/react-dom": "16.8.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "2.1.8",
+    "typescript": "3.4.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "tslint": "tslint './src/**/*.{ts,tsx}'",
+    "tslint:fix": "yarn tslint -- --fix",
+    "tslint:check": "tslint-config-prettier-check ./tslint.json",
+    "prettier": "prettier --write --config .prettierrc './src/**/*.{ts,tsx}'",
+    "fix-styles": "prettier-stylelint --write 'src/**/*.{css,scss}' "
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "prettier": "^1.16.4",
+    "prettier-stylelint": "^0.4.2",
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-scss": "^3.5.4",
+    "tslint": "^5.15.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "tslint-react": "^4.0.0"
+  }
+}
